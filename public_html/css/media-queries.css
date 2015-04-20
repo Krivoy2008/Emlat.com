@@ -1,0 +1,309 @@
+@media screen and (max-width: 767px){
+	.pagination > li {
+  /* background: none repeat scroll 0 0 #fff; */
+  color: #498c05;
+  border-radius: 24px;
+  display: inline-block;
+  height: 23px;
+  margin-left: 29px;
+  width: 22px;
+}
+    .breadcrumbs li.active {
+        font-size: 11px;
+    }
+    .breadcrumbs a {
+        color: #fff;
+        font-size: 11px;
+    }
+    .margin-top-40{
+        margin-top: 0;
+    }
+    .mobile-lang{
+        display: inline!important;
+    }
+    .news-title{
+     font-size: 20px;
+     padding: 20px 20px 20px 15px;
+    }
+	.lfside{
+	margin-top:20px;
+	}
+    #baseWrap, #foreignWrap{
+        padding:20px;
+    }
+
+    /*HEADER SNIPPETS*/
+    #header_snippets table{
+        border-collapse: separate;
+        border-spacing: 0 5px;
+
+    }
+    #header_snippets table tr:first-child td:last-child{
+        font-size: 14px;
+
+    }
+    #header_snippets table tr:last-child td:last-child{
+        font-size: 10px;
+        vertical-align: top;
+
+    }
+    #header_snippets table tr:nth-child(2n){
+        padding-top: 20px;
+    }
+    #header_snippets div .xs-margin-top{
+    margin-top: 10px;
+    }
+
+    /*END HEADER SNIPPETS*/
+    /*CONVERTER*/
+    #converter input[type=text],.select2-container .select2-choice{
+        /*height: 35px;*/
+        font-size: 17px;
+    }
+    .select2-container .select2-choice span{
+        font-size: 14px;
+    }
+    .amountC, .amountF{
+        font-size: 20px;
+    }
+    #converter table td:nth-child(2) img {
+        cursor: pointer;
+        height: 40px;
+        width: 40px;
+    }
+    /*END CONVERTER*/
+    /*BANNER*/
+    #quater{
+        /*border-radius: 0;*/
+        border-radius: 0 0 10px 10px;
+        position: relative;
+        margin-top: 223px;
+    }
+    #banner img{
+        top:15px;
+        width: 157px;
+        display: inline-block;
+
+    }
+    .nav-tabs li a{
+    font-size: 11px;
+    }
+
+    #banner{
+        border-radius:10px;
+        background: url("/images/back.jpg") right 180px no-repeat,linear-gradient(#e49f08, #ecc71a) ;
+        height: auto;
+        /*min-height: 329px;*/
+        position: relative;
+
+
+        background-size:55% 18%,auto;
+
+
+    }
+
+
+    #banner input[type=submit]{
+
+
+        height: 50px!important;
+        font-family:'Fregat',sans-serif;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 20px;
+        background: rgb(203,40,129); /* Old browsers */ /* FF3.6+ */ /* Chrome,Safari4+ */ /* Chrome10+,Safari5.1+ */ /* Opera 11.10+ */ /* IE10+ */
+        background-image: linear-gradient(rgba(203,40,129,1) 0%, rgba(155,20,94,1) 59%);
+        background: -o-linear-gradient(rgba(203,40,129,1) 0%, rgba(155,20,94,1) 59%);
+        background: linear-gradient(rgba(203,40,129,1) 0%, rgba(155,20,94,1) 59%); /* W3C */
+        filter: progid:DXImageTr:Transform.Microsoft.gradient( startColorstr='#cb2881', endColorstr='#9b145e',GradientType=0 ); /* IE6-9     */
+        border: none;
+        width: 100%;
+
+
+        color: #ffffff;
+
+
+    }
+    #banner h2{
+
+    font-size: 24px;
+    position: absolute;
+        top:0;
+        width: 316px;
+        left: 10px;
+        padding-left: 20%;
+
+    }
+    #banner form{
+        bottom: 0;
+        margin-left: 0;
+        position: absolute;
+        right: 16px;
+        top: 135px;
+    }
+    #banner form input[type=text]{
+        width: 200px;
+
+    }
+    #banner h3{
+        position: absolute;
+    top:50px;
+        left: 10px;
+    font-size: 15px;
+        line-height: 1.5em;
+        padding-left: 20%;
+    }
+    .price{
+        font-size: 1.3em;
+    }
+
+
+
+
+    /*END BANNER*/
+    /*OPTIONS*/
+    .graphics{
+        padding:0 ;
+
+    }
+    .news{
+        /*border-radius: 0;*/
+        margin-top: 20px;
+    }
+    .background{
+        /*border-radius: 0;*/
+    }
+    /*END OPTIONS*/
+    /*FOOTER*/
+    .footer{
+        padding: 0;
+    }
+    .powered tr:first-child td:first-child{
+        font-size: 14px;
+    }
+    .powered tr:first-child td{
+        font-size: 12px;
+    }
+    /*END FOOTER*/
+    /*NEWS*/
+    .mobile_image{
+        width: 100%;
+        height:200px;
+    }
+    .little_block{
+        padding-right: 15px!important;
+    }
+    #little_news>li:first-child{
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    #little_news > li:last-child{
+        border-bottom-left-radius: 10px!important;
+        border-bottom-right-radius: 10px!important;
+    }
+    #little_news img.active{
+        display: inline !important;
+        height: 200px;
+        width: 100%;
+    }
+    .blnews{
+        padding: 0;
+    }
+    .text_news {
+        font-size: 12px;
+        line-height: 1.5em;
+        margin-top: 10px;
+        text-align: justify;
+    }
+    .article_img{
+        margin: 0!important;
+        padding: 0!important;
+
+        border-radius: 8px!important;
+        width: 100%!important;
+        height: 200px!important;
+    }
+    /*END NEWS*/
+    .qst span{
+        font-size: 16px!important;
+    }
+    .ask{
+        padding-left: 0!important;
+    }
+    #little_news .active img{
+        visibility: visible!important;
+
+        position: absolute;
+        top:-3.6px;
+        right: -33px;
+        z-index: 100;
+        height: 102%
+    }
+    /*FAQ*/
+    #contact{
+        padding: 10px!important;
+        text-align: justify;
+    }
+    .datas a{
+        font-size: 13px;
+    }
+}
+/*TABLET*/
+@media screen and (max-width: 991px) and (min-width: 768px){
+
+
+    /*HEADER SNIPPETS*/
+
+    #header_snippets table tr:first-child td:last-child{
+        font-size: 14px;
+
+    }
+    #header_snippets table tr:last-child td:last-child{
+        font-size: 12px;
+
+    }
+
+    /*END HEADER SNIPPETS*/
+    /*CONVERTER*/
+    #converter table td:nth-child(2) img{
+        width: 55px!important;
+        height: 55px!important;
+    }
+    /*END CONVERTER*/
+    /*BANNER*/
+    #quater table tr:last-child td:last-child{
+        font-size: 1.3em;
+    }
+
+    #banner img{
+        width: 250px;
+
+    }
+    #quater table tr td{
+        font-size: 0.8em;
+    }
+    #banner input[type=submit]{
+        font-size: 14px;
+    }
+    #banner h2{
+        padding-left: 23%;
+        font-weight: bold;
+        font-size: 30px;
+    }
+    #banner h3{
+        padding-left: 23%;
+        color: #fff;
+    }
+    #banner form input[type="submit"] {
+        font-size: 15px;
+    }
+    /*BANNER END*/
+    .qst span{
+        font-size: 16px!important;
+    }
+    .nav-tabs li a{
+        font-size: 15px;
+    }
+
+
+}

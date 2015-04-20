@@ -1,0 +1,45 @@
+
+<IfModule mod_rewrite.c>
+<IfModule mod_negotiation.c>
+Options -MultiViews
+</IfModule>
+RewriteEngine On
+#RewriteCond %{HTTP_HOST} !^www\.
+#RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
+RewriteCond %{REQUEST_URI} !admin
+RewriteCond %{REQUEST_URI} /+[^\.]+$
+
+
+RewriteRule ^(.+[^/])$ %{REQUEST_URI}/ [R=301,L]
+#Handle Front Controller...
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ^ index.php [L]
+</IfModule>
+
+### BEGIN BASIC BLOCK
+#<Files wp-login.php>
+#AuthType Basic
+#AuthName "Protected by AskApache"
+#AuthUserFile /home/emlat/domains/emlat.com/public_html/.htpasswd
+#Require user admin
+#Satisfy All
+#</Files>
+### END BASIC BLOCK
+
+#SetEnvIfNoCase User-Agent "^Googlebot" search_bot
+#SetEnvIfNoCase User-Agent "^Yandex" search_bot
+#SetEnvIfNoCase User-Agent "^Yahoo" search_bot
+#SetEnvIfNoCase User-Agent "^Aport" search_bot
+#SetEnvIfNoCase User-Agent "^msnbot" search_bot
+#SetEnvIfNoCase User-Agent "^spider" search_bot
+#SetEnvIfNoCase User-Agent "^Robot" search_bot
+#SetEnvIfNoCase User-Agent "^php" search_bot
+#SetEnvIfNoCase User-Agent "^Mail" search_bot
+#SetEnvIfNoCase User-Agent "^bot" search_bot
+#SetEnvIfNoCase User-Agent "^igdeSpyder" search_bot
+#SetEnvIfNoCase User-Agent "^Snapbot" search_bot
+#SetEnvIfNoCase User-Agent "^WordPress" search_bot
+#SetEnvIfNoCase User-Agent "^BlogPulseLive" search_bot
+#SetEnvIfNoCase User-Agent "^Parser" search_bot

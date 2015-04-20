@@ -1,0 +1,191 @@
+.currency-content {
+	min-height:220px;
+	padding:5px 10px;
+}
+
+.currency-wrapper {
+	background-color: #F4F5F6;
+	border: 1px solid #e6e6e6;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	box-shadow: inset 0 0 0 2px #fff;
+	-moz-box-shadow: inset 0 0 0 2px #fff;
+	-webkit-box-shadow: inset 0 0 0 2px #fff;
+}
+
+.currency-header {
+	text-align:center;
+	color: #333333;
+	font-size:18px;
+	font-weight:bold;
+	text-shadow:0 1px 1px #fff;
+	margin:0 0 20px 0;
+	padding:5px 0;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	background-color: #f5f5f5;
+	background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));
+	background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6);
+	background-image: -o-linear-gradient(top, #ffffff, #e6e6e6);
+	background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
+	background-repeat: repeat-x;
+	border-bottom: 1px solid #b3b3b3;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+	-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.currency-form select {
+	width:100%;
+}
+
+.currency-form input, .currency-form select {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border:1px solid #e6e6e6;
+	padding:5px;
+	display:block;
+	color: #333;
+	font-size:11px;
+}
+
+.currency-form input {
+	text-align:center;
+	margin:0 auto;
+}
+
+.currency-form span {
+	display:block;
+	font-size:11px;
+	font-weight:bold;
+	padding:10px 0 0 3px;
+}
+
+.currency-convertBtn,
+.currency-backBtn {
+	display: block;
+	padding: 4px 12px;
+	margin:15px auto;
+	font-size: 12px;
+	line-height: 20px;
+	font-weight:bold;
+	color: #333333;
+	text-align: center;
+	text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+	vertical-align: middle;
+	cursor: pointer;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background-color: #f5f5f5;
+	background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));
+	background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6);
+	background-image: -o-linear-gradient(top, #ffffff, #e6e6e6);
+	background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
+	background-repeat: repeat-x;
+	border: 1px solid #cccccc;
+	border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+	border-bottom-color: #b3b3b3;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+	-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.currency-convertBtn[disabled] {
+  cursor: default;
+  background-image: none;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+     -moz-box-shadow: none;
+          box-shadow: none;
+}
+
+.currency-convertBtn:hover,
+.currency-convertBtn:focus,
+.currency-backBtn:hover,
+.currency-backBtn:focus {
+  color: #333333;
+  text-decoration: none;
+  background-position: 0 -15px;
+  -webkit-transition: background-position 0.1s linear;
+     -moz-transition: background-position 0.1s linear;
+       -o-transition: background-position 0.1s linear;
+          transition: background-position 0.1s linear;
+}
+
+.currency-convertBtn:focus,
+.currency-backBtn:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.currency-convertBtn:hover,
+.currency-convertBtn:focus,
+.currency-convertBtn:active,
+.currency-convertBtn.active,
+.currency-convertBtn.disabled,
+.currency-convertBtn[disabled] {
+  color: #333333;
+  background-color: #e6e6e6;
+  background-color: #d9d9d9;
+}
+
+.currency-convertBtn:active,
+.currency-convertBtn.active {
+  background-color: #cccccc \9;
+}
+
+.currency-footer {
+	text-align:center;
+	padding-bottom:3px;
+}
+.currency-footer a {
+	color: #b1b1b1;
+	text-decoration:none;
+	font-weight:normal;
+}
+.currency-loading-phrase,
+.currency-error,
+.currency-loading-gif {
+	display:block;
+	margin:0 auto;
+	text-align:center;
+	padding-bottom:10px;
+}
+
+.currency-back-table {
+	margin:0 auto;
+	padding-top:10px;
+	line-height: 100%;
+}
+
+.currency-result-from,
+.currency-equals,
+.currency-result-to {
+	font-weight:bold;
+	text-align:center;
+}
+.currency-result-compare1,
+.currency-back-gap,
+.currency-result-compare2 {
+	font-size:9px;
+	padding-top:30px;
+	text-align:center;
+}
